@@ -20,6 +20,7 @@ import { NewAcceptance } from './pages/Acceptance/NewAcceptance'
 import { UPDAssemblyMode } from './pages/UPD/UPDAssemblyMode'
 import CreateUPD from './pages/UPD/CreateUPD'
 import { Archive } from './pages/Archive/Archive'
+import { EditReception } from './pages/Archive/EditReception'
 import { Settings } from './pages/Settings'
 import { Motors } from './pages/Reference/Motors'
 import { Counterparties } from './pages/Reference/Counterparties'
@@ -43,6 +44,7 @@ function App() {
             <Route path="acceptance/new" element={<NewAcceptance />} />
             <Route path="upd-assembly" element={<UPDAssemblyMode />} />
             <Route path="archive" element={<Archive />} />
+            <Route path="archive/:receptionId" element={<EditReception />} />
             <Route path="settings" element={<Settings />} />
             {/* Reference Data */}
             <Route path="reference/motors" element={<Motors />} />
