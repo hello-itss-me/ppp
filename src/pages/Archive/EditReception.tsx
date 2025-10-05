@@ -10,7 +10,7 @@ import {
   deleteReceptionItem,
   addReceptionItem,
 } from '../../services/receptionService'
-import { ArrowLeft, Save, Trash2, Plus, AlertCircle } from 'lucide-react'
+import { ArrowLeft, Save, Trash2, Plus, CircleAlert as AlertCircle } from 'lucide-react'
 
 interface ReceptionItem {
   id: string

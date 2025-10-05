@@ -4,7 +4,7 @@ import { AppLayout } from '../../components/Layout/AppLayout'
 import { Button } from '../../components/ui/Button'
 import { Alert } from '../../components/ui/Alert'
 import { getReceptions } from '../../services/receptionService'
-import { Edit, Package } from 'lucide-react'
+import { CreditCard as Edit, Package } from 'lucide-react'
 
 interface Reception {
   id: string
